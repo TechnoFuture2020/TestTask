@@ -54,8 +54,6 @@ var myEvent = function(event){
     if (countClick === 1) {
       coordLetter[0] = event.clientX - 30 + 'px';
       coordLetter[1] = event.clientY - 30 + 'px';
-      console.log('coordLetter[0]: ', coordLetter[0]);
-      console.log('coordLetter[1]: ', coordLetter[1]);
     }
 
     event.target.style.position = 'absolute';
